@@ -13,8 +13,9 @@ class HomeController extends AbstractController
      */
     function index()
     {
-        $attributes = $this->get('security.token_storage')->getToken()->getAttributes();
-        return $this->render('home', ["attributes" => $attributes]);
+        return $this->render("index.html.twig");
+//        $attributes = $this->get('security.token_storage')->getToken()->getAttributes();
+//        return $this->render('home', ["attributes" => $attributes]);
 
     }
 
