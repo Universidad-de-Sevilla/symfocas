@@ -1,0 +1,7 @@
+## Paso a paso
+
+1. Crea el proyecto con ``composer create-project symfony/website-skeleton``
+1. Configurar git y un repositorio en la nube
+1. Agregar la librería L3/cas-bundle con ``composer require l3/cas-bundle``
+1. Configurar los parámetros de CAS para el bundle L3/cas-bundlecd
+1. Documentación en https://github.com/l3-team/CasBundle
