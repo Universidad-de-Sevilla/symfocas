@@ -8,7 +8,7 @@ security:
             security: false
 
         l3_firewall:
-            pattern: ^/
+            pattern: ^/intranet
             security: true
             cas: true # Activation du CAS
 

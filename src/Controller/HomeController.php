@@ -19,4 +19,15 @@ class HomeController extends AbstractController
 
     }
 
+    /**
+     * @Route("/intranet", name="intranet")
+     */
+    function intranetIndex()
+    {
+        return $this->render("intranet.html.twig");
+//        $attributes = $this->get('security.token_storage')->getToken()->getAttributes();
+//        return $this->render('home', ["attributes" => $attributes]);
+
+    }
+
 }
